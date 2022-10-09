@@ -26,7 +26,7 @@ print("Company : %s" %Employee["Company"])
 
 new_dictionary = {}
 print("Empty Dictionary: ")
-print(Dict)
+print(new_dictionary)
 
 # Adding elements to dictionary one at a time
 new_dictionary[0] = 'Peter'
@@ -53,7 +53,7 @@ print('\nall_values - {}'.format(Employee.values()))
 print('\nall_keys - {}'.format(Employee.keys()))
 
 print('\nget method - {}'.format(Employee.get('Name')))
-print('\npop - {}'.format(Employee.pop('Company')))
 
 inventory = {'shirts': 25, 'paints': 220, 'shocks': 525, 'tshirts': 217}
+print('\npop - {}'.format(inventory.pop('shirts')))
 print('\npopitem - {}\n'.format(inventory.popitem()))

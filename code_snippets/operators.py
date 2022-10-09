@@ -10,7 +10,7 @@ print('\nmodulus - {}\n'.format(a % b))
 print('\nexponent - {}\n'.format(a ** b))
 print('\nfloor division - {}\n'.format(a // b))
 
-# Comparison operators
+# Assignment operators
 a += b
 print('\nplus equals - {}\n'.format(a))
 a **= b

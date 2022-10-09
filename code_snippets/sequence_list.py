@@ -25,22 +25,22 @@ print('\nlist repetition = {}\n'.format(L1 * 2))
 ###########
 
 new_list = list(range(1, 6))
-print('\ndefault list - {}\n'.format())
+print('\ndefault list - {}\n'.format(new_list))
 
 # add element to the end of the list
 new_list.append("this is a string and new element")
-print('\nadd element - {}\n'.format())
+print('\nadd element - {}\n'.format(new_list))
 
 # remove elements from the list
 new_list.remove(2)
-print('\nremove element - {}\n'.format())
+print('\nremove element - {}\n'.format(new_list))
 new_list.pop()
-print('\nremove last element - {}\n'.format())
+print('\nremove last element - {}\n'.format(new_list))
 
 # sort the list
 new_list.sort()
-print('\nsort the list - {}\n'.format())
+print('\nsort the list - {}\n'.format(new_list))
 
 # remove all elements from the list
 new_list.clear()
-print('\nempty the list - {}\n'.format())
+print('\nempty the list - {}\n'.format(new_list))

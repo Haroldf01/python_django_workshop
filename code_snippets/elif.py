@@ -10,6 +10,7 @@ else:
     print("number is not equal to 10, 50 or 100")
 
 marks = int(input("Enter the marks "))
+# and, or, not
 
 if marks > 85 and marks <= 100:
    print("Congrats ! you scored grade A ...")
